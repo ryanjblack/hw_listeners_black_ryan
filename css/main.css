@@ -3,134 +3,22 @@ body {
     background-color: #def1f7;
 }
 
+h1,
 h2,
 p {
     text-align: center;
 }
 
-.container {
-    max-width: 420px;
-    width: 100%;
-    margin: auto;
-    height: auto;
-}
-
+h1,
 h2 {
     font-size: 2.5rem;
-    letter-spacing: 0.6rem;
     color: #2f2e2b; /* D_Grey */
     font-family: 'Montserrat', sans-serif;
 }
 
-form {
-    text-align: center;
-}
-
-form p {
+p {
     font-family: 'Open Sans Light', sans-serif;
     font-size: 0.8rem;
     padding: 5px;
     letter-spacing: 1.5px;
-}
-
-fieldset,
-input,
-select,
-textarea {
-    font-family: 'Montserrat', sans-serif;
-    display: block;
-    margin: 10px;
-    padding: 5px;
-    letter-spacing: 2.5px;
-}
-
-label {
-    font-family: 'Open Sans Light', sans-serif;
-    font-size: 0.8rem;
-}
-
-input[type="text"],
-input[type="email"] {
-    border: 1px solid #2f2e2b; /* D_Grey1 */
-    width: 290px;
-    margin: auto;
-}
-
-select {
-    border: 1px solid #2f2e2b; /* D_Grey1 */
-    width: 300px;
-    margin: auto;
-    color: #2f2e2b; /* D_Grey1 */
-}
-
-textarea {
-    border: 1px solid #2f2e2b; /* D_Grey1 */
-    width: 290px;
-    margin: auto;
-}
-
-input[type="submit"] {
-    display: inline;
-    border: 1px solid black;
-    width: 145px;
-    padding: 10px;
-    margin: 15px 15px 50px 15px;
-}
-
-.label {
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-input[type="submit"]:hover {
-    background-color: #d2232a; /* Red */
-    color: #fefefe; /* White */
-}
-
-.inline,
-input[type="radio"] {
-    display: inline;
-}
-
-input,
-textarea,
-select {
-    display: block;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea,
-select {
-    border: 1px solid #475b51;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    padding-left: 10px;
-}
-
-::-moz-placeholder { /* Firefox 19+ */
-    padding-left: 10px;
-}
-
-:-ms-input-placeholder { /* IE 10+ */
-    padding-left: 10px;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-    padding-left: 10px;
-}
-
-.buttoncenter {
-    text-align: center;
-}
-
-.formrequiredincomplete {
-    background: #ff9999;
-    color: #000000;
-    border: #ff0000 2px solid;
 }
